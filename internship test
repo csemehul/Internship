@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            text-align: center;
+            padding: 20px;
+        }
+        .header, .hero, .features, .testimonials, .cta, .footer {
+            padding: 20px 0;
+        }
+        .cta button {
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .cta button:hover {
+            background-color: #218838;
+        }
+        .features ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .features ul li {
+            background: #fff;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .footer {
+            background-color: #f8f9fa;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Achieve Marketing Excellence with Mayukha Sagar's Expertise</h1>
+            <p>Harness the power of advanced strategies to boost your sales and grow your business.</p>
+        </div>
+        <div class="features">
+            <h2>Why Choose Our Platform?</h2>
+            <ul>
+                <li>AI-Powered Campaigns</li>
+                <li>Real-Time Analytics</li>
+                <li>Multi-Channel Integration</li>
+            </ul>
+        </div>
+        <div class="testimonials">
+            <h2>What Our Clients Say</h2>
+            <p>"This tool transformed our marketing strategy!" - Happy Customer</p>
+        </div>
+        <div class="cta">
+            <button onclick="location.href='signup.html'">Start Your Free Trial</button>
+        </div>
+        <div class="footer">
+            <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+            <a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a>
+        </div>
+    </div>
+</body>
+</html>
