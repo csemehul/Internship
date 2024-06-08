@@ -1,0 +1,90 @@
+1. **What does HTML stand for?**
+- **b) Hyper Text Markup Language**
+
+2. **Which HTML element is used to define the title of a document?**
+- **c) `<title>`
+
+3. **What is the correct HTML element for inserting a line break?**
+- **c) `<br>`
+
+4. **Which HTML attribute is used to define inline styles?**
+- **b) `style`**
+
+5. **What is the purpose of the `<alt>` attribute in an `<img>` tag?**
+- **a) To provide alternative text for an image if it cannot be displayed**
+
+6. **Which HTML5 element is used to define navigation links?**
+- **a) `<nav>`
+
+7. **What is the correct syntax for creating a hyperlink in HTML?**
+- **a) `<a href="url">link</a>`**
+
+8. **Which HTML element is used to specify a footer for a document or section?**
+- **b) `<footer>`
+
+9. **How can you open a link in a new tab or window?**
+- **b) `target="_blank"`**
+
+10. **Which HTML5 element is used to embed a video in a webpage?**
+- **c) `<video>`
+
+11. **What does CSS stand for?**
+- **c) Cascading Style Sheets**
+
+12. **Which property is used to change the background color in CSS?**
+- **b) `background-color`**
+
+13. **How do you add a background image in CSS?**
+- **a) `background-image: url(image.jpg);`**
+
+14. **Which property is used to change the font of an element in CSS?**
+- **b) `font-family`**
+
+15. **What is the default value of the `position` property in CSS?**
+- **d) `static`**
+
+16. **How do you center-align text in CSS?**
+- **b) `text-align: center;`**
+
+17. **Which CSS property controls the text size?**
+- **a) `font-size`**
+
+18. **How do you make each word in a text start with a capital letter in CSS?**
+- **a) `text-transform: capitalize;`**
+
+19. **Which property is used to set the space between lines of text in CSS?**
+- **b) `line-height`**
+
+20. **What is the correct CSS syntax to make all `<p>` elements bold?**
+- **b) `p {font-weight:bold;}`**
+
+21. **What is the correct syntax for referring to an external script called "script.js"?**
+- **a) `<script src="script.js">`**
+
+22. **How do you create a function in JavaScript?**
+- **b) `function myFunction()`**
+
+23. **How do you call a function named "myFunction"?**
+- **c) `myFunction()`**
+
+24. **How do you write an `if` statement in JavaScript?**
+- **b) `if (i == 5)`**
+
+25. **How does a `while` loop start in JavaScript?**
+- **c) `while (i <= 10)`**
+
+26. **How can you add a comment in JavaScript?**
+- **b) `// This is a comment`**
+
+27. **Which built-in method returns the length of a string in JavaScript?**
+- **d) `length`**
+
+28. **Which of the following is not a reserved word in JavaScript?**
+- **c) `program`**
+
+29. **What is the output of `console.log(typeof null)` in JavaScript?**
+- **a) `"object"`**
+
+30. **How do you declare a JavaScript variable?**
+- **b) `var carName;`**
+
