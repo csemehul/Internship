@@ -6,68 +6,109 @@
     <title>Simple Landing Page</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
+            background-color: #e3f2fd;
+            color: #424242;
         }
         .container {
-            width: 80%;
+            width: 85%;
             margin: auto;
             text-align: center;
             padding: 20px;
         }
-        .header, .hero, .features, .testimonials, .cta, .footer {
-            padding: 20px 0;
+        .header, .features, .testimonials, .cta, .footer {
+            padding: 30px 0;
         }
-        .cta button {
-            padding: 10px 20px;
-            background-color: #28a745;
+        .header {
+            background-color: #2196f3;
             color: #fff;
-            border: none;
-            cursor: pointer;
-            font-size: 16px;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
+            padding: 60px 0;
         }
-        .cta button:hover {
-            background-color: #218838;
+        .header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        .header p {
+            font-size: 18px;
         }
         .features ul {
             list-style-type: none;
             padding: 0;
+            display: flex;
+            justify-content: center;
         }
         .features ul li {
             background: #fff;
-            margin: 10px 0;
-            padding: 10px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: 30%;
+        }
+        .features ul li h3 {
+            margin-top: 0;
+            font-size: 22px;
+        }
+        .testimonials p {
+            font-style: italic;
+            margin: 0;
+            font-size: 20px;
+        }
+        .cta button {
+            padding: 15px 25px;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+            border-radius: 25px;
+            transition: background-color 0.3s ease;
+        }
+        .cta button:hover {
+            background-color: #388e3c;
         }
         .footer {
-            background-color: #f8f9fa;
-            padding: 10px;
+            background-color: #f1f1f1;
+            padding: 15px 0;
+        }
+        .footer a {
+            color: #424242;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .footer a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <h1>Achieve Marketing Excellence with Mayukha Sagar's Expertise</h1>
-            <p>Harness the power of advanced strategies to boost your sales and grow your business.</p>
+            <h1>Transform Your Business with Mehul Singh's Marketing Solutions</h1>
+            <p>Leverage cutting-edge strategies to elevate your sales and business growth.</p>
         </div>
         <div class="features">
-            <h2>Why Choose Our Platform?</h2>
+            <h2>Our Unique Offerings</h2>
             <ul>
-                <li>AI-Powered Campaigns</li>
-                <li>Real-Time Analytics</li>
-                <li>Multi-Channel Integration</li>
+                <li>
+                    <h3>AI-Driven Campaigns</h3>
+                    <p>Optimize your marketing efforts with intelligent automation.</p>
+                </li>
+                <li>
+                    <h3>Insightful Analytics</h3>
+                    <p>Gain real-time insights to make informed decisions.</p>
+                </li>
+                <li>
+                    <h3>Seamless Integration</h3>
+                    <p>Connect across multiple channels effortlessly.</p>
+                </li>
             </ul>
         </div>
         <div class="testimonials">
-            <h2>What Our Clients Say</h2>
-            <p>"This tool transformed our marketing strategy!" - Happy Customer</p>
+            <h2>Client Testimonials</h2>
+            <p>"An absolute game-changer for our marketing approach!" - Satisfied Client</p>
         </div>
         <div class="cta">
             <button onclick="location.href='signup.html'">Start Your Free Trial</button>
