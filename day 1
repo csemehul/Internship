@@ -1,0 +1,18 @@
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+        // Loop through each element in the array
+        for (int i = 0; i < nums.size(); i++) {
+            // Loop through the elements after the current element
+            for (int j = i + 1; j < nums.size(); j++) {
+                // Check if the sum of the current pair of elements equals the target
+                if (nums[i] + nums[j] == target) {
+                    // If so, return the indices of these elements
+                    return {i, j};
+                }
+            }
+        }
+        // If no pair is found, return an empty vector
+        return {};
+    }
+};
